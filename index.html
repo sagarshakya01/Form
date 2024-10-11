@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Bank Form</title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/css/img/logo canara.png" alt="logo bank">
+  <section class="heading">
+    <h1 >ACCOUNT OPENING FORM FOR RESIDENT INDIVIDUAL</h1>
+    <P >(MUST ACCOMPAINED WITH TERMS AND CONDITIONS)</P>
+    <H3 >CUSTOMER INFORMATION SHEET (CIF Creation/Amendment)</H3>
+    <p >(In case of joint account, Part-1 (CIF Sheet) to be taken for each customer)</p>
+  </section>
+    </header>
+
+
+    <main>
+      <p class="small-heading">Personal Information</p>
+      <form action="">
+        <label for="fullname">FullName</label><br /><br />
+        <input class="First" type="text" name="fullname" id="fullname" placeholder="First Name" required />
+        <input class="last" type="text" name="fullname" placeholder="Last Name" id="fullname" required /><br><br><br><br>
+        <label for="DOB">Date Of Birth</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="dob" type="Date" name="DOB" id="DOB" required /><br><br><br>
+        <label  for="fathername">Father's Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="fathername" placeholder="Father Name" type="text" name="fathername" id="fathername" required /><br><br><br>
+        <label  for="mothername">Mother's Name</label>
+        <input class="mothername" placeholder="Mother Name" type="text" name="mothername" id="mothername" required /><br><br><br>
+
+        <label for="Telephone">Telephone Number</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" name="Telephone" id="Telephone" required placeholder="Enter Your Number" /><br><br><br>
+        <label for="email">Email ID</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" name="email" id="email" required placeholder="Enter Your Email Id" /><br><br><br>
+        <label for="district">District</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="district" id="district" required placeholder="Enter your City"><br><br><br>
+        <label for="Address">Address</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="Address" id="Address" required placeholder="Enter Your Adderss Here " style="width: 800px; height: 50px;" ><br><br><br>
+
+        <label for="category"> Select Your Category</label>&nbsp;&nbsp;
+        <select name="category" id="category" class="select">
+          <option value="General">General</option>
+          <option value="OBC">OBC</option>
+          <option value="ST">ST</option>
+          <option value="SC">SC</option>
+          <option value="Other's">Other's</option>
+        </select><br><br>
+        <label for="religion">Select Your Religion</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="religion" id="religion" class="select">
+          <option value="Hindu">Hindu</option>
+          <option value="Muslim">Muslim</option>
+          <option value="Other's">Other's</option>
+        </select><br><br>
+        <label for="gender">Select Your Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="gender" id="gender" class="select">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other's">Other's</option>
+        </select><br><br>
+
+
+      </form>
+
+      <!-- <p class="small-heading">Account Information</p> -->
+      <form action="">
+        <label for="aadhar ">Aadhar Number </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" name="aadhar" id="aadhar" required placeholder=" Enter Your Aadhar No. "style="height: 30px"/><br><br>
+        <label for="pincode">Pin Code</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="pincode" id="pincode" required placeholder="Enter Your Pin Code"style="height: 30px " /><br><br>
+        <label for="Alternative">Alternative Number</label>
+        <input type="number" name="Alternative" id="Alternative" required placeholder="Enter Your Alternative No."style="height: 30px " /><br><br>
+      </form>
+    </main>
+  </body>
+</html>
